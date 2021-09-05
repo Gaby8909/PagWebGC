@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "./images/dn_logoGCCC.png"
+import logo from "./images/dn_logoR.png"
 import "./header.css"
 
 

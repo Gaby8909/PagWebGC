@@ -6,7 +6,7 @@
 .header {
     max-height: 100px;
     display: flex;
-    background-color: #f5c7a8;
+    background-color: #414155;
     position: sticky;
     top: 0;
     z-index: 100;
@@ -20,14 +20,14 @@
     align-items: center;
 }
 .header .header__nav a {
-    color: black;
+    color: white;
     text-decoration: none;
     padding: 0.5rem;
     font-weight: bold;
 }
 .header .header__nav a:hover {
     transition: 150ms;
-    border: 2px solid black;
+    border: 2px solid #eadddd;
 }
 .header__menu__logo img {
     width: 290px;

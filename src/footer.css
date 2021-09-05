@@ -1,0 +1,15 @@
+.footer {
+    background: #7e7e90;
+    color: #f9f9f9;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 11%;
+}
+ footer a {
+
+}
+ .footer__enlace {
+     color: black;
+     text-decoration: none;
+
+ }
