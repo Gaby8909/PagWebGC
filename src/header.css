@@ -1,0 +1,41 @@
+
+
+
+
+
+.header {
+    max-height: 100px;
+    display: flex;
+    background-color: #f5c7a8;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+
+}
+.header__menu {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 20%;
+    align-items: center;
+}
+.header .header__nav a {
+    color: black;
+    text-decoration: none;
+    padding: 0.5rem;
+    font-weight: bold;
+}
+.header .header__nav a:hover {
+    transition: 150ms;
+    border: 2px solid black;
+}
+.header__menu__logo img {
+    width: 290px;
+    top: 0;
+
+
+
+
+
+
+}

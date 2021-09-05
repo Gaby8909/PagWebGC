@@ -1,0 +1,22 @@
+.home__banner {
+    background-image: url("images/dn_logoGc.png") ;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.home__banner h1 {
+    font-size: 4rem;
+    text-shadow: 3px 2px #e09456;
+}
+.home__subBanner {
+    background-color: #f5c7a8;
+    color: black;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
