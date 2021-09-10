@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/PagWebGC/static/css/main.12ca6a47.chunk.css",
+    "main.js": "/PagWebGC/static/js/main.f77d6ce0.chunk.js",
+    "main.js.map": "/PagWebGC/static/js/main.f77d6ce0.chunk.js.map",
+    "runtime-main.js": "/PagWebGC/static/js/runtime-main.a3bc40e1.js",
+    "runtime-main.js.map": "/PagWebGC/static/js/runtime-main.a3bc40e1.js.map",
+    "static/js/2.6b784915.chunk.js": "/PagWebGC/static/js/2.6b784915.chunk.js",
+    "static/js/2.6b784915.chunk.js.map": "/PagWebGC/static/js/2.6b784915.chunk.js.map",
+    "static/js/3.643fe774.chunk.js": "/PagWebGC/static/js/3.643fe774.chunk.js",
+    "static/js/3.643fe774.chunk.js.map": "/PagWebGC/static/js/3.643fe774.chunk.js.map",
+    "index.html": "/PagWebGC/index.html",
+    "static/css/main.12ca6a47.chunk.css.map": "/PagWebGC/static/css/main.12ca6a47.chunk.css.map",
+    "static/js/2.6b784915.chunk.js.LICENSE.txt": "/PagWebGC/static/js/2.6b784915.chunk.js.LICENSE.txt",
+    "static/media/home.css": "/PagWebGC/static/media/dn_logoGc.4d60d433.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a3bc40e1.js",
+    "static/js/2.6b784915.chunk.js",
+    "static/css/main.12ca6a47.chunk.css",
+    "static/js/main.f77d6ce0.chunk.js"
+  ]
+}
