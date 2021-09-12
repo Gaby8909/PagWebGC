@@ -1,7 +1,25 @@
-import  React from "react"
+import React from "react"
+import {useState} from "react"
 import "./contact.css"
+import axios from "axios";
 
 function Contact () {
+
+    let [name, setName ] = useState("");
+    let [message, setMessage ] = useState("");
+
+    const sendMessage = async (e) => {
+        e.preventDefault();
+        axios.post("/api/enviarContacto",
+            {
+            name:name,
+            message:message
+        });
+        console.log(name+" // "+ message);
+        setName=("");
+        setMessage=("");
+
+    }
 
 
     return (
@@ -9,9 +27,9 @@ function Contact () {
             <div className="contac__title"><h1>Contacto</h1></div>
             <div className="contact__form">
                 <form>
-                    <input name="nombre" placeholder="Nombre"/>
-                    <textarea placeholder="Escribe  aquí tu mensaje..."></textarea>
-                    <button>Enviar Mensaje</button>
+                    <input value={name} onChange={(e) => setName(e.target.value)} name="nombre" placeholder="Nombre"/>
+                    <textarea  value={message} onChange={(e) => setMessage(e.target.value)} placeholder="Escribe  aquí tu mensaje..."></textarea>
+                    <button onClick={sendMessage}>Enviar Mensaje</button>
                 </form>
 
             </div>

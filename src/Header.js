@@ -9,10 +9,11 @@ function Header() {
     return (
         <div className="header">
           <div className="header__menu">
+
               <div className="header__nav">
                   <a href="/">Blog</a>
-                  <a href="/">Proyectos</a>
-                  <a href="/">Contacto</a>
+                  <a href="/#proyectos">Proyectos</a>
+                  <a href="/Contacto">Contacto</a>
 
               </div>
 

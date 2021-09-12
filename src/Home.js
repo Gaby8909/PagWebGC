@@ -12,7 +12,7 @@ function Home(){
               <p> Web Developer Junior | FullStack </p>
 
           </div>
-              <div className="home__content">
+              <div className="home__content" id="proyectos">
                   <div className="home__content_title">
                       <h2>Proyectos</h2>
                   </div>
