@@ -1,5 +1,5 @@
 .footer {
-    background: #7e7e90;
+    background: #414155;
     color: #f9f9f9;
     display: flex;
     justify-content: space-between;
@@ -7,9 +7,20 @@
 }
  footer a {
 
+
 }
  .footer__enlace {
      color: black;
      text-decoration: none;
 
  }
+ .footer__enlace {
+     max-width: 50px;
+ }
+
+
+
+
+
+
+

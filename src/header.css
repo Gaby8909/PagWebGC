@@ -6,6 +6,7 @@
 .header {
     max-height: 100px;
     display: flex;
+    justify-content: left;
     background-color: #414155;
     position: sticky;
     top: 0;
@@ -14,16 +15,22 @@
 }
 .header__menu {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     width: 100%;
-    padding: 0 20%;
+    padding: 5px 2px 5px 5px;
     align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: space-between;
 }
+
 .header .header__nav a {
     color: white;
     text-decoration: none;
     padding: 0.5rem;
     font-weight: bold;
+    font-size: 2rem;
+
 }
 .header .header__nav a:hover {
     transition: 150ms;
@@ -34,9 +41,13 @@
     top: 0;
     margin-left: 4px;
 
-
-
-
-
+}
+.header__enlace  img {
+    max-width: 90px;
+    padding: 11px 5px 5px 10px;
+}
+.header__enlace_github img {
+    max-width: 85px;
+    padding: 10px 5px 5px 10px;
 
 }

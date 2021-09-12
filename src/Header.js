@@ -1,6 +1,7 @@
 import React from "react";
-import logo from "./images/dn_logoR.png"
 import "./header.css"
+import logoLinkedin from "./images/dn__logoLinKedin.png";
+import logoGitHub from "./images/dn_logo__github.png";
 
 
 
@@ -8,14 +9,17 @@ function Header() {
     return (
         <div className="header">
           <div className="header__menu">
-
-              <a href="" className="header__menu__logo"><img src={logo} alt="logo"/></a>
               <div className="header__nav">
-                  <a href="/">Acerca de mi</a>
+                  <a href="/">Blog</a>
                   <a href="/">Proyectos</a>
                   <a href="/">Contacto</a>
 
               </div>
+
+
+              <p><a className="header__enlace" href="https://www.linkedin.com/in/gaby-campoverde-744871106/" target="_blank" ><img className="logoLikedin" src={logoLinkedin} alt="logoLinkedin" /></a></p>
+              <p><a className="header__enlace_github" href="https://github.com/Gaby8909" target="_blank" ><img className="logoGitHub" src={logoGitHub} alt="logoGitHub" /></a></p>
+
           </div>
         </div>
     )
