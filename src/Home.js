@@ -1,17 +1,14 @@
 import React from "react";
 import "./home.css"
+import {StartSession} from "./StartSesion";
 
 function Home(){
     return (
         <div className="home">
           <div className="home__banner">
-             <h1>Gaby <strong>Campoverde</strong></h1>
-
+             <StartSession/>
           </div>
-          <div className="home__subBanner">
-              <p> Web Developer Junior | FullStack </p>
 
-          </div>
               <div className="home__content" id="proyectos">
                   <div className="home__content_title">
                       <h2>Proyectos</h2>
